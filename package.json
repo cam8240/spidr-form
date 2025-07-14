@@ -1,7 +1,23 @@
-"homepage":"https://<your-user>.github.io/spidr-airfryer-form",
-"scripts":{
-  "dev":"vite",
-  "build":"vite build",
-  "predeploy":"npm run build",
-  "deploy":"gh-pages -d dist"
+{
+  "name": "spidr-form",
+  "version": "1.0.0",
+  "description": "Interest‑form embed for Spidr Design’s air‑fryer landing page",
+  "homepage": "https://cam8240.github.io/spidr-form",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "Cameron",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0",
+    "vite": "^5.0.0"
+  }
 }

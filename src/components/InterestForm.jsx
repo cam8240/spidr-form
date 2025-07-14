@@ -14,7 +14,7 @@ export default function InterestForm(){
 
   const handleSubmit = e =>{
     e.preventDefault();
-    console.table(formData);   // requirement: print to console
+    console.table(formData);
     alert('Thanks! Check dev-tools console.');
   };
 
