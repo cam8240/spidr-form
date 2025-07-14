@@ -1,6 +1,7 @@
 {
   "name": "spidr-form",
   "version": "1.0.0",
+  "type": "module",
   "description": "Interest‑form embed for Spidr Design’s air‑fryer landing page",
   "homepage": "https://cam8240.github.io/spidr-form",
   "scripts": {
